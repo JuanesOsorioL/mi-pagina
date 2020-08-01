@@ -1,3 +1,19 @@
+function menu (){
+    document.getElementById("menu").classList.toggle("ocultar");
+    document.getElementById("menu_open").classList.toggle("ocultar");
+    document.getElementById("menu_close").classList.toggle("ocultar");
+}
+
+document.getElementById("menu_open").onclick=function(){
+    menu();
+}
+document.getElementById("menu_close").onclick=function(){
+    menu();
+}
+
+
+/*
+///antes///
 
 function $( selector ) {  
     const elements = document.querySelectorAll( selector );
@@ -6,9 +22,11 @@ function $( selector ) {
             document.querySelector(selector);
         }
 
+
 const barra =$('i.fa-bars');
 const cerrar =$('i.fa-close');
 const menu =$('div.menu');
+
 
 const activo = function(){
     barra.classList.add('ocultar');
@@ -26,7 +44,7 @@ barra.addEventListener('click', function(){
 cerrar.addEventListener('click', function(){
     desactivo();
 })
-
+*/
 
 
 
