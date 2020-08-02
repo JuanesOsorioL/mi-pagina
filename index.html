@@ -10,20 +10,28 @@
 <body>
 
     <header>
-        <nav>
+        <nav class="container-vacio barra-menu">
             <div class="container">
                 <div class="row">
-                    <div class="col-12"> 
+
+                    <div class="col-1">
+                        <img class="img_logo" src="./img/logo.png" alt="" >
+                    </div>
+
+                    <div class="col-11"> 
                         <i id="menu_open" class="fa fa-bars f-right "></i>
                         <i id="menu_close" class="fa fa-close f-right ocultar"></i>
+                        <label id="menu_navbar" class="f-right" >Menu</label>
                     </div>
-                    <div  id="menu" class="col-12 ocultar">
-                        <ul>
-                            <li><a href="">EPISODIOS</a></li>
-                            <li><a href="">NOSOTROS</a></li>
-                            <li><a href="">ENTREVISTAS</a></li>
-                            <li><a href="">TÓPICOS</a></li>
-                        </ul>
+
+                    <div id="menu" class="col-12 ocultar">
+                            <ul>
+                                <div class="div-menu" ><span class="menu-titulo">Menu</span></div>
+                                <li><i class="fa fa-home"></i><a href="">Home</a></li>
+                                <li><i class="fa fa-address-book"></i><a href="">Biografia</a></li>
+                                <li><i class="fa fa-picture-o"></i><a href="">Galeria</a></li>
+                                <li><i class="fa fa-envelope-square"></i><a href="">Contactos</a></li>
+                            </ul>
                     </div>
 
                 </div>

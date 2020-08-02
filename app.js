@@ -1,17 +1,3 @@
-function menu (){
-    document.getElementById("menu").classList.toggle("ocultar");
-    document.getElementById("menu_open").classList.toggle("ocultar");
-    document.getElementById("menu_close").classList.toggle("ocultar");
-}
-
-document.getElementById("menu_open").onclick=function(){
-    menu();
-}
-document.getElementById("menu_close").onclick=function(){
-    menu();
-}
-
-
 /*
 ///antes///
 
@@ -45,6 +31,25 @@ cerrar.addEventListener('click', function(){
     desactivo();
 })
 */
+
+
+///ocultar y esconder el menu///
+function menu (){
+    document.getElementById("menu").classList.toggle("ocultar");
+    document.getElementById("menu_open").classList.toggle("ocultar");
+    document.getElementById("menu_close").classList.toggle("ocultar");
+    document.getElementById("menu_navbar").classList.toggle("ocultar");
+}
+
+document.getElementById("menu_open").onclick=function(){
+    menu();
+}
+document.getElementById("menu_close").onclick=function(){
+    menu();
+}
+
+
+
 
 
 

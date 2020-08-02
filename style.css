@@ -1,6 +1,50 @@
-.container {
-    padding: 10px 16px 24px 16px;
+.container{
+    padding: 18px 10px 6px 10px;
 }
+.container-vacio{
+    padding: 0;
+    margin: 0;
+}
+.img_logo{
+    width: 45px;
+    height: 45px;
+    border-radius: 38%;
+    margin-top: -15px;
+    margin-bottom: -2px;
+}
+
+.fa{
+    color: honeydew;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+#menu .fa{
+    color: black;
+    padding-right: 18px;
+    padding-left: 9px;
+}
+.div-menu{
+    background-color: #b44040;
+    width: 294px;
+    margin-left: -10px;
+    height: 70px;
+    border-bottom: black solid;
+    border-left: black solid;
+    border-right: black solid;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+.menu-titulo{
+    font-size: 50px;
+    color: honeydew;
+}
+
+.col-11 label{
+    color: #ffffff;
+}
+
 
 .row{
     display: flex;
@@ -19,6 +63,27 @@ body{
 .col-1{
     width: 8.3%;
 }
+.col-2{
+    width: calc( 8.3% * 2);
+}
+.col-3{
+    width: calc( 8.3% * 3);
+}
+.col-4{
+    width: calc( 8.3% * 4);
+}
+.col-5{
+    width: calc( 8.3% * 5);
+}
+.col-8{
+    width: calc( 8.3% * 8);
+}
+.col-9{
+    width: calc( 8.3% * 9);
+}
+.col-10{
+    width: calc( 8.3% * 10);
+}
 .col-11{
     width: calc( 8.3% * 11);
 }
@@ -30,18 +95,22 @@ body{
 }
 
 li {
-    background-color: #0000EC;
-    padding: 15px 15px 15px 10px;
+    background-color: #b44040;
+    padding: 10px 10px 10px 20px;
     color: #ffffff;
-    font-family: "menu";
-    font-size: 16px;
-    width: 295px;
-    margin-left: -16px;
+    width: 284px;
+    margin-left: -10px;
+    height: 20px;
+    border-bottom: black solid;
+    border-left: black solid;
+    border-right: black solid;
 }
-ul {
-    position: absolute;
-    margin: 0;
-    padding: 5px 0 0 0;
+ul{
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
 }
 
 li a {
@@ -49,3 +118,90 @@ li a {
     cursor: pointer;
     text-decoration: none;
 }
+/*barra negra navbar*/
+.barra-menu{
+  
+   background: black;
+     width: 100%;
+     height: 50px;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+ .ensayo {
+    transform: translateY(-119%);
+    transition-timing-function: ease-in;
+    transition: 1.2s;
+}
+
+.ensayo1{
+    transition: 1.25s;
+    transition-timing-function: ease-out;
+    transform: translateY(0);
+    opacity: 1;
+}
+*/
+
+/*
+.ensayo{
+    background-color: #0000EC;
+    position: absolute;
+    margin-left: -16px;
+    width: 320px;
+    height: 0;
+    transition: height 2s ease-out;
+  
+}
+*/
+
+
+
+
+
+/*
+@keyframes menu {
+    from{
+        top: 10px;
+        width: 320px;
+        height: 0px;
+    }
+
+    to{
+        top: 10px;
+        width: 320px;
+        height: 210px;
+        
+    }
+}
+*/
+
+
