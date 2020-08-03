@@ -32,7 +32,7 @@ cerrar.addEventListener('click', function(){
 })
 */
 
-
+/*
 ///ocultar y esconder el menu///
 function menu (){
     document.getElementById("menu").classList.toggle("ocultar");
@@ -47,9 +47,31 @@ document.getElementById("menu_open").onclick=function(){
 document.getElementById("menu_close").onclick=function(){
     menu();
 }
+*/
 
 
+function menu (){
+  // document.getElementById("menu").classList.toggle("ocultar");
+   document.getElementById("menu_open").classList.toggle("ocultar");
+   document.getElementById("menu_close").classList.toggle("ocultar");
+    document.getElementById("menu_navbar").classList.toggle("ocultar");
+}
 
+document.getElementById("menu_open").onclick=function(){
+   
+    menu();
+    movimiento();
+}
+document.getElementById("menu_close").onclick=function(){
+    menu();
+    movimiento();
+   
+}
+
+function movimiento(){
+    document.getElementById("si").classList.toggle("control");
+    document.getElementById("si").style.transition="transform 1s ease-in-out";
+}
 
 
 

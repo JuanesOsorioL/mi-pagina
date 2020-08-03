@@ -104,7 +104,27 @@ li {
     border-bottom: black solid;
     border-left: black solid;
     border-right: black solid;
+
 }
+
+/*
+li {
+    background-color: #b44040;
+    padding: 10px 10px 10px 20px;
+    color: #ffffff;
+    width: 284px;
+    margin-left: -10px;
+    height: 20px;
+    border-bottom: black solid;
+    border-left: black solid;
+    border-right: black solid;
+}
+*/
+
+
+
+
+
 ul{
     margin-block-start: 0em;
     margin-block-end: 0em;
@@ -113,26 +133,63 @@ ul{
     padding-inline-start: 0px;
 }
 
+.control1{
+    /*transform: translatey(-108%); eje x*/
+    transform: translatey(-88%);
+}
+
+.control{
+    transform: translatey(12%);
+}
+
 li a {
     color: #FFFFFF;
     cursor: pointer;
     text-decoration: none;
 }
+
+
 /*barra negra navbar*/
 .barra-menu{
-  
-   background: black;
-     width: 100%;
-     height: 50px;
+    background: black;
+    width: 100%;
+    height: 50px;
+ }
+ .sobreponer{
+    position:absolute;
+     z-index: -1;
+ }
+ 
+ .sobreponer1{
+    position:absolute;
+     z-index: -2;
  }
 
 
 
 
+/*bienvenida*/
 
-
-
-
+ .container1{
+    background: grey;
+    width: 100%;
+    height: 254px;
+ }
+.presentacion{
+   padding: 30px 10px 10px 10px;
+}
+.titulo{
+    font-size: 30px;
+    text-align: center;
+}
+.parrafo{
+    color: #FFFFFF;
+    font-size: 17px;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
 
 
 
